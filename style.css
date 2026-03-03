@@ -54,3 +54,70 @@ footer {
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.barra-sticky {
+            position: sticky;
+            top: 0px;
+            background-color: yellow;
+            color:black;
+            padding: 12px;
+            font-weight: bold;
+            text-align: center;
+            border-bottom: 4px solid rgb(7, 49, 98); 
+         }
+        .posição {
+            margin: 40px;
+            padding: 20px;
+            border-radius: 40px;
+            background-color: rgb(72, 155, 243)
+            text-align: center;
+            color:cornsilk;
+        }
+
+        .pos-box {
+            width: 420pox;
+            margin: 20px;
+            padding: 15px;
+            border: 4px solid white;
+            background-color: rgb(72, 155, 243);
+            color: white;
+        }
+       .pos-static {
+  position: static;
+  top: 40px;
+  left: 30px;
+       }
+
+
+        .pos-relative {
+  position: relative;
+  top: 20px;
+  left: 30px;
+  background-color: yellow;
+  color: rgb(15, 44, 107);
+}
+
+        .pai {
+    width: 520px;
+    height: 160px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    border: 4px solid white;
+    background-color: rgb(7, 49, 98);
+    position: relative;
+    color: white;
+    font-weight: bold;
+        }
+.filho{
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    padding: 8px 12px;
+    background-color: yellow;
+    color: rgb(7, 49, 98);
+    border: 3px solid rgb(7, 49, 98);
+    border-radius: 20px;
+     
+}
+   
